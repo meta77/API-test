@@ -1,0 +1,27 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.video-card {
+    width: 320px;
+    background: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.video-card img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.video-card button {
+    width: 100%;
+    margin-top: 8px;
+}
